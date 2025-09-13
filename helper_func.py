@@ -1,5 +1,5 @@
-#(©)CodeFlix_Bots
-#rohit_1888 on Tg #Dont remove this line
+#(©)kv5movies
+#kavivarmank on Tg #Dont remove this line
 
 import base64
 import re
@@ -15,7 +15,7 @@ from database.database import *
 
 
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @kv5movies, @kavivarmank
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
@@ -37,7 +37,7 @@ async def check_admin(filter, client, update):
         return False
 
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @kv5movies, @kavivarmank
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
@@ -71,7 +71,7 @@ async def is_subscribed(client, user_id):
     return True
 
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @kv5movies, @kavivarmank
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
@@ -107,7 +107,7 @@ async def is_sub(client, user_id, channel_id):
         print(f"[!] Error in is_sub(): {e}")
         return False
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @kv5movies, @kavivarmank
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
@@ -211,7 +211,7 @@ def get_exp_time(seconds):
             result += f'{int(period_value)} {period_name}'
     return result
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @kv5movies, @kavivarmank
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
@@ -233,9 +233,9 @@ async def get_shortlink(url, api, link):
 subscribed = filters.create(is_subscribed)
 admin = filters.create(check_admin)
 
-#rohit_1888 on Tg :
+#kavivarmank on Tg :
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @kv5movies, @kavivarmank
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.

@@ -1,5 +1,5 @@
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @kv5movies, @kavivarmank
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
@@ -20,7 +20,7 @@ from pyrogram.enums import ParseMode
 import sys
 import pytz
 from datetime import datetime
-#rohit_1888 on Tg
+#kavivarmank on Tg
 from config import *
 from database.db_premium import *
 from database.database import *
@@ -87,11 +87,11 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/weebs_support for support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/kv5movies for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/weebs_support")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/kv5movies")
         self.LOGGER(__name__).info(f"""       
 
 
@@ -105,7 +105,7 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.username = usr_bot_me.username
-        self.LOGGER(__name__).info(f"Bot Running..! Made by @Codeflix_Bots")   
+        self.LOGGER(__name__).info(f"Bot Running..! Made by @kv5movies")   
 
         # Start Web Server
         app = web.AppRunner(await web_server())
@@ -113,7 +113,7 @@ class Bot(Client):
         await web.TCPSite(app, "0.0.0.0", PORT).start()
 
 
-        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @Codeflix_Bots</blockquote></b>")
+        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @kv5movies</blockquote></b>")
         except: pass
 
     async def stop(self, *args):
@@ -124,7 +124,7 @@ class Bot(Client):
         """Run the bot."""
         loop = asyncio.get_event_loop()
         loop.run_until_complete(self.start())
-        self.LOGGER(__name__).info("Bot is now running. Thanks to @rohit_1888")
+        self.LOGGER(__name__).info("Bot is now running. Thanks to @kavivarmank")
         try:
             loop.run_forever()
         except KeyboardInterrupt:
