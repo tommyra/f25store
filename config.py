@@ -23,7 +23,7 @@ APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811388")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "sewxiy") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "732862")) # Owner id
 #--------------------------------------------
@@ -41,7 +41,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "fd022cf3d94a9996e2e6fe70cfce64962036e49c")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
