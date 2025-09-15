@@ -23,9 +23,9 @@ APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "sewxiy") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "732862")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002437704080")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "tom543") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "1178165980")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -91,7 +91,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "tom543")
+OWNER_TAG = os.environ.get("OWNER_TAG", "kavivarmank")
 UPI_ID = os.environ.get("UPI_ID", "kvmix786@okicici")
 QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/4d3f0c3db6c0bd4cfbf03-34208cd0252ea589de.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/tom543")
